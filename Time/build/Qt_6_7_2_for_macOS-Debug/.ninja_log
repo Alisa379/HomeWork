@@ -1,0 +1,16 @@
+# ninja log v6
+104	635	1727283574671561840	CMakeFiles/Time.dir/stopwatch.cpp.o	edebaf57af79e835
+317	914	1727283909359156603	/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/Time_autogen/timestamp	c5eadebe5712f623
+104	758	1727283574671141055	CMakeFiles/Time.dir/main.cpp.o	7056e3fdd26f2332
+317	914	1727283909359156603	Time_autogen/timestamp	c5eadebe5712f623
+317	914	1727283909359156603	Time_autogen/mocs_compilation.cpp	c5eadebe5712f623
+317	914	1727283909359156603	/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/Time_autogen/mocs_compilation.cpp	c5eadebe5712f623
+930	20354	1727283909972126124	CMakeFiles/Time.dir/mainwindow.cpp.o	b1eef63938295c42
+104	773	1727283574670954892	CMakeFiles/Time.dir/Time_autogen/mocs_compilation.cpp.o	96be659b0c4436c2
+20355	22800	1727283929396687087	Time.app/Contents/MacOS/Time	a1a04466dcfd7246
+30	59	1727283969629400382	Time_autogen/timestamp	c5eadebe5712f623
+30	59	1727283969629400382	Time_autogen/mocs_compilation.cpp	c5eadebe5712f623
+30	59	1727283969629400382	/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/Time_autogen/timestamp	c5eadebe5712f623
+30	59	1727283969629400382	/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/Time_autogen/mocs_compilation.cpp	c5eadebe5712f623
+59	3117	1727283969657779795	CMakeFiles/Time.dir/mainwindow.cpp.o	b1eef63938295c42
+3117	4620	1727283972718296409	Time.app/Contents/MacOS/Time	a1a04466dcfd7246

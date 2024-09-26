@@ -1,0 +1,9 @@
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Time.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Time_autogen_timestamp_deps.dir
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Time_autogen.dir
