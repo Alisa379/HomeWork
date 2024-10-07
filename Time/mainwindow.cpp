@@ -4,22 +4,22 @@
 #include "stopwatch.h"
 
 Stopwatch Timer;
-QTimer *timer = new QTimer();
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(timer, &QTimer::timeout, this, &MainWindow::setTime);
-    ui->label->setText("00:00:00");
+    connect(Timer.timer, &QTimer::timeout, this, &MainWindow::setTime);
+    ui->label->setText("00:00");
+    ui->pushButton_2->setEnabled(false);
 }
 
 void MainWindow::setTime() {
     Timer.update();
-    ui->label->setText(QString("%1:%2:%3").arg(Timer.minutes).arg(Timer.seconds).arg(Timer.milliseconds));
+    ui->label->setText(QString("%1:%2").arg(Timer.minutes).arg(Timer.seconds));
     if (Timer.circleClicked == 1) {
-        ui->textBrowser->setText(QString("Circle: %1 , time: %2 : %3").arg(Timer.minutes).arg(Timer.seconds).arg(Timer.milliseconds));
+        ui->textBrowser->setText(QString("Circle: %1").arg(Timer.seconds));
     }
 }
 
@@ -31,12 +31,14 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     if (ui->pushButton->text() == "Start") {
+        ui->pushButton_2->setEnabled(true);
         ui->pushButton->setText("Stop");
-        timer->start(10);
+        Timer.Start();
     }
     else {
         ui->pushButton->setText("Start");
-        timer->stop();
+        ui->pushButton_2->setEnabled(false);
+        Timer.Stop();
     }
 }
 
@@ -44,7 +46,7 @@ void MainWindow::on_pushButton_2_clicked()
 {
     if (ui->pushButton->text() == "Stop") {
         Timer.circleClicked = 1;
-        ui->textBrowser->setText(QString("Circle: %1 , time: %2 : %3 ").arg(Timer.minutes).arg(Timer.seconds).arg(Timer.milliseconds));
+        ui->textBrowser->setText(QString("Circle: %1").arg(Timer.seconds));
     }
 
 }
@@ -52,12 +54,8 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_3_clicked()
 {
-    if (ui->pushButton->text() == "Stop") {
-        ui->pushButton->setText("Start");
-        timer->stop();
-        Timer.reset();
-    }
-    ui->label->setText("00:00:00");
+    Timer.reset();
+    ui->label->setText("00:00");
     ui->textBrowser->clear();
 }
 
