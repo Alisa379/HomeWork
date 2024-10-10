@@ -3,16 +3,21 @@
 Stopwatch::Stopwatch() {
     minutes = 0;
     seconds = 0;
-    circleClicked = 0;
+    circle = 0;
 }
 
 void Stopwatch::update() {
-    if (seconds < 59) {
-        seconds++;
+    if (sec < 10) {
+        sec++;
     }
     else {
-        seconds = 0;
-        minutes++;
+        if (seconds < 59) {
+            seconds++;
+        }
+        else {
+            seconds = 0;
+            minutes++;
+        }
     }
 }
 
@@ -20,10 +25,12 @@ void Stopwatch::update() {
 void Stopwatch::reset() {
     minutes = 0;
     seconds = 0;
+    sec = 0;
+    circle = 0;
 }
 
 void Stopwatch::Start() {
-    timer->start(1000);
+    timer->start(100);
 }
 
 void Stopwatch::Stop() {

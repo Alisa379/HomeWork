@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "stopwatch.h"
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,13 +18,14 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    Stopwatch Timer;
 
 private slots:
-    void on_pushButton_clicked();
+    void start_or_stop();
 
-    void on_pushButton_3_clicked();
+    void showCircle();
 
-    void on_pushButton_2_clicked();
+    void clear();
 
     void setTime();
 

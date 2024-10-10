@@ -1,9 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include <QTimer>
 #include "stopwatch.h"
 
-Stopwatch Timer;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -11,16 +9,13 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     connect(Timer.timer, &QTimer::timeout, this, &MainWindow::setTime);
-    ui->label->setText("00:00");
+    ui->label->setText("00:00:00");
     ui->pushButton_2->setEnabled(false);
 }
 
 void MainWindow::setTime() {
     Timer.update();
-    ui->label->setText(QString("%1:%2").arg(Timer.minutes).arg(Timer.seconds));
-    if (Timer.circleClicked == 1) {
-        ui->textBrowser->setText(QString("Circle: %1").arg(Timer.seconds));
-    }
+    ui->label->setText(QString("%1:%2:%3").arg(Timer.minutes).arg(Timer.seconds).arg(Timer.sec));
 }
 
 MainWindow::~MainWindow()
@@ -28,7 +23,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::start_or_stop()
 {
     if (ui->pushButton->text() == "Start") {
         ui->pushButton_2->setEnabled(true);
@@ -42,20 +37,17 @@ void MainWindow::on_pushButton_clicked()
     }
 }
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::showCircle()
 {
-    if (ui->pushButton->text() == "Stop") {
-        Timer.circleClicked = 1;
-        ui->textBrowser->setText(QString("Circle: %1").arg(Timer.seconds));
-    }
-
+    Timer.circle;
+    ui->textBrowser->append(QString("Circle: %1, time %2 : %3 : %4").arg(Timer.circle).arg(Timer.minutes).arg(Timer.seconds).arg(Timer.sec));
 }
 
 
-void MainWindow::on_pushButton_3_clicked()
+void MainWindow::clear()
 {
     Timer.reset();
-    ui->label->setText("00:00");
+    ui->label->setText("00:00:00");
     ui->textBrowser->clear();
 }
 

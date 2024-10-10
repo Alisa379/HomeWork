@@ -257,6 +257,6 @@
  mdp:/Users/alisamun/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
 /Users/alisamun/Documents/QtProjects/HomeWork/Time/mainwindow.cpp
  uic:./ui_mainwindow.h
-/Users/alisamun/Documents/QtProjects/HomeWork/Time/main.cpp
 /Users/alisamun/Documents/QtProjects/HomeWork/Time/stopwatch.h
+/Users/alisamun/Documents/QtProjects/HomeWork/Time/main.cpp
 /Users/alisamun/Documents/QtProjects/HomeWork/Time/stopwatch.cpp

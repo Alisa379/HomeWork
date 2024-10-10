@@ -9,7 +9,8 @@ public:
     Stopwatch();
     int minutes;
     int seconds;
-    bool circleClicked;
+    int sec;
+    int circle;
 
     void update();
     void reset();

@@ -36,10 +36,10 @@ namespace {
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
     "MainWindow",
-    "on_pushButton_clicked",
+    "start_or_stop",
     "",
-    "on_pushButton_3_clicked",
-    "on_pushButton_2_clicked",
+    "showCircle",
+    "clear",
     "setTime"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -84,11 +84,11 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'on_pushButton_clicked'
+        // method 'start_or_stop'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_pushButton_3_clicked'
+        // method 'showCircle'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_pushButton_2_clicked'
+        // method 'clear'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'setTime'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
@@ -102,9 +102,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
-        case 1: _t->on_pushButton_3_clicked(); break;
-        case 2: _t->on_pushButton_2_clicked(); break;
+        case 0: _t->start_or_stop(); break;
+        case 1: _t->showCircle(); break;
+        case 2: _t->clear(); break;
         case 3: _t->setTime(); break;
         default: ;
         }
