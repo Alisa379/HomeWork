@@ -12,9 +12,11 @@ void Stopwatch::update() {
     }
     else {
         if (seconds < 59) {
+            sec = 0;
             seconds++;
         }
         else {
+            sec = 0;
             seconds = 0;
             minutes++;
         }

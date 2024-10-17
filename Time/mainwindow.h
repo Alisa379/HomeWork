@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include "stopwatch.h"
-#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,6 +27,9 @@ private slots:
     void clear();
 
     void setTime();
+
+
+
 
 
 private:

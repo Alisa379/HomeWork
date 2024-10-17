@@ -29,9 +29,9 @@ public:
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QTextBrowser *textBrowser;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *start_stop;
+    QPushButton *showCircle;
+    QPushButton *Clear;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -54,20 +54,20 @@ public:
 
         verticalLayout->addWidget(textBrowser);
 
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
+        start_stop = new QPushButton(centralwidget);
+        start_stop->setObjectName("start_stop");
 
-        verticalLayout->addWidget(pushButton);
+        verticalLayout->addWidget(start_stop);
 
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName("pushButton_2");
+        showCircle = new QPushButton(centralwidget);
+        showCircle->setObjectName("showCircle");
 
-        verticalLayout->addWidget(pushButton_2);
+        verticalLayout->addWidget(showCircle);
 
-        pushButton_3 = new QPushButton(centralwidget);
-        pushButton_3->setObjectName("pushButton_3");
+        Clear = new QPushButton(centralwidget);
+        Clear->setObjectName("Clear");
 
-        verticalLayout->addWidget(pushButton_3);
+        verticalLayout->addWidget(Clear);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -87,9 +87,9 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Circle", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        start_stop->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
+        showCircle->setText(QCoreApplication::translate("MainWindow", "Circle", nullptr));
+        Clear->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
     } // retranslateUi
 
 };
