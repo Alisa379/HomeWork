@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::setTime() {
     Timer.update();
-    ui->label->setText(QString("%1:%2:%3").arg(Timer.minutes).arg(Timer.seconds).arg(Timer.sec));
+    ui->label->setText(QString("%1:%2:%3").arg(Timer.getMinutes()).arg(Timer.getSeconds()).arg(Timer.getSec()));
 }
 
 MainWindow::~MainWindow()
@@ -39,8 +39,8 @@ void MainWindow::on_StartStop_clicked()
 
 void MainWindow::on_ShowCircle_clicked()
 {
-    Timer.circle++;
-    ui->textBrowser->append(QString("Circle: %1 Time: %2:%3:%4").arg(Timer.circle).arg(Timer.minutes).arg(Timer.seconds).arg(Timer.sec));
+    Timer.setCircle();
+    ui->textBrowser->append(QString("Circle: %1 Time: %2:%3:%4").arg(Timer.getCircle()).arg(Timer.getMinutes()).arg(Timer.getSeconds()).arg(Timer.getSec()));
 
 }
 

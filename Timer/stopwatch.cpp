@@ -40,3 +40,24 @@ void StopWatch::Stop() {
     timer->stop();
 }
 
+int StopWatch::getSec() {
+    return sec;
+}
+
+int StopWatch::getSeconds() {
+    return seconds;
+}
+
+int StopWatch::getMinutes() {
+    return minutes;
+}
+
+int StopWatch::getCircle() {
+    return circle;
+}
+
+void StopWatch::setCircle() {
+    circle++;
+}
+
+

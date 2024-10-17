@@ -7,15 +7,24 @@ class StopWatch
 public:
     StopWatch();
     QTimer *timer = new QTimer();
-    int sec;
-    int seconds;
-    int minutes;
-    int circle;
+
 
     void update();
     void reset();
     void Start();
     void Stop();
+
+    int getSec();
+    int getSeconds();
+    int getMinutes();
+    int getCircle();
+    void setCircle();
+
+private:
+    int sec;
+    int seconds;
+    int minutes;
+    int circle;
 };
 
 #endif // STOPWATCH_H
