@@ -10,6 +10,7 @@ public:
 
 
     void update();
+    void cupdate();
     void reset();
     void Start();
     void Stop();
@@ -17,6 +18,9 @@ public:
     int getSec();
     int getSeconds();
     int getMinutes();
+    int getCSec();
+    int getCSeconds();
+    int getCMinutes();
     int getCircle();
     void setCircle();
 
@@ -25,6 +29,9 @@ private:
     int seconds;
     int minutes;
     int circle;
+    int csec;
+    int cseconds;
+    int cminutes;
 };
 
 #endif // STOPWATCH_H

@@ -40,7 +40,8 @@ void MainWindow::on_StartStop_clicked()
 void MainWindow::on_ShowCircle_clicked()
 {
     Timer.setCircle();
-    ui->textBrowser->append(QString("Circle: %1 Time: %2:%3:%4").arg(Timer.getCircle()).arg(Timer.getMinutes()).arg(Timer.getSeconds()).arg(Timer.getSec()));
+    ui->textBrowser->append(QString("Circle: %1 Time: %2:%3:%4").arg(Timer.getCircle()).arg(Timer.getCMinutes()).arg(Timer.getCSeconds()).arg(Timer.getCSec()));
+    Timer.cupdate();
 
 }
 
