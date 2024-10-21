@@ -1,0 +1,5 @@
+/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Concurrent.dir
+/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Concurrent_autogen_timestamp_deps.dir
+/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/Concurrent_autogen.dir

@@ -1,0 +1,50 @@
+# ninja log v6
+264	1405	1729530986923985339	CMakeFiles/Concurrent.dir/mainwindow.cpp.o	4853e4323d8a72b9
+264	1331	1729530986923714586	CMakeFiles/Concurrent.dir/Concurrent_autogen/mocs_compilation.cpp.o	d397f159a4d1756a
+264	1317	1729530986923874588	CMakeFiles/Concurrent.dir/main.cpp.o	decbc3f87044c281
+264	942	1729530986924088923	CMakeFiles/Concurrent.dir/ExampleRace.cpp.o	bb58d3dc84ef56dc
+17	263	1729530986916901000	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+17	263	1729530986916901000	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+17	263	1729530986916901000	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+17	263	1729530986916901000	Concurrent_autogen/timestamp	b20a4373afc595d4
+1405	1566	1729530988065465706	Concurrent	3ef87554032bc5d7
+2	150	1729531016139053433	build.ninja	3fd04aa0ca6449b6
+4	161	1729531016139053433	build.ninja	3fd04aa0ca6449b6
+20	39	1729531016167423205	Concurrent_autogen/timestamp	b20a4373afc595d4
+20	39	1729531016167423205	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+20	39	1729531016167423205	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+20	39	1729531016167423205	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+39	1110	1729531016186650807	CMakeFiles/Concurrent.dir/mainwindow.cpp.o	4853e4323d8a72b9
+1110	1244	1729531017257458037	Concurrent	3ef87554032bc5d7
+7	36	1729531528518786659	Concurrent_autogen/timestamp	b20a4373afc595d4
+7	36	1729531528518786659	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+7	36	1729531528518786659	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+7	36	1729531528518786659	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+7	32	1729531540130321174	Concurrent_autogen/timestamp	b20a4373afc595d4
+7	32	1729531540130321174	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+7	32	1729531540130321174	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+7	32	1729531540130321174	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+7	36	1729531560982475500	Concurrent_autogen/timestamp	b20a4373afc595d4
+7	36	1729531560982475500	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+7	36	1729531560982475500	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+7	36	1729531560982475500	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+13	36	1729531583460854594	Concurrent_autogen/timestamp	b20a4373afc595d4
+13	36	1729531583460854594	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+13	36	1729531583460854594	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+13	36	1729531583460854594	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+8	32	1729531611521388946	Concurrent_autogen/timestamp	b20a4373afc595d4
+8	32	1729531611521388946	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+8	32	1729531611521388946	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+8	32	1729531611521388946	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+32	979	1729531611545616887	CMakeFiles/Concurrent.dir/mainwindow.cpp.o	4853e4323d8a72b9
+980	1160	1729531612492697389	Concurrent	3ef87554032bc5d7
+9	37	1729531661334921433	Concurrent_autogen/timestamp	b20a4373afc595d4
+9	37	1729531661334921433	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+9	37	1729531661334921433	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+9	37	1729531661334921433	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+32	63	1729532975325087280	Concurrent_autogen/timestamp	b20a4373afc595d4
+32	63	1729532975325087280	Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+32	63	1729532975325087280	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/timestamp	b20a4373afc595d4
+32	63	1729532975325087280	/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug/Concurrent_autogen/mocs_compilation.cpp	b20a4373afc595d4
+63	1468	1729532975355589713	CMakeFiles/Concurrent.dir/mainwindow.cpp.o	4853e4323d8a72b9
+1468	1645	1729532976760711885	Concurrent	3ef87554032bc5d7

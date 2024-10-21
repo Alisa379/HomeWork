@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Concurrent",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrent-Debug-36b0e1a965d4b5519379.json",
+					"name" : "Concurrent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrent_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrent_autogen-Debug-57c03a9dc43e4793f04f.json",
+					"name" : "Concurrent_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrent_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrent_autogen_timestamp_deps-Debug-e3f5d06695bb7fefbca5.json",
+					"name" : "Concurrent_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent/build/Qt_6_7_2_for_macOS-Debug",
+		"source" : "/Users/alisamun/Downloads/netology-code qt-homeworks main 06-PreConcurrent"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
